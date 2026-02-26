@@ -1,0 +1,60 @@
+Inheritance:
+1.inherition is the process of creating a new class from a exsiting class where the existing class is called super class and new class is called sub class
+Advantages of Inheritance:
+1.code enchanceability(version control)
+2.code reuseability
+Encapsulation:
+1.declaring private variable in class and accesssing those variable through a public method and name those method as setter or getter that kind of class is called encapsulation.
+-data hiding
+Polymorphism:
+Ability of an object to behave diffrently
+-runtime=overriding
+-compiletime=overloading
+Static Keyword: when you want every obj of the class to have the same value and if one obj change the value all obj shoud have that exact value
+This keyword: represent curent class obj
+Super keyword: represent parent class obj
+interface-blueprint or template for a class
+
+Lambda expression-it is an short form of anonymous function that always implements with functional interface.
+How to declare- ()->{};
+
+Types of Lambda expression: 
+1.No parameter, no return value 
+()->{
+    System.out.println("this is lambda expression);
+    System.out.println("this is lambda expression);
+};
+OR
+()->System.out.println("this is lambda expression); // for single line 
+
+2.no parameter, with return value
+()->{
+    int n1=10, n2=20;
+    return(n1+n2);
+};
+OR
+()-> "Lambda expression"; //in single line their shouldn't be return keyword 
+()->20;
+3.with one parameter, no return value 
+(int n)-> System.out.println(n*n);
+(n)->System.out.println(n*n);
+n->System.out.println(n*n);
+n->(n>10)?Sytem.out.println("yes"):Sytem.out.println(no);
+4.with one parameter, with return value
+(int num)->num+10;
+(num)->num+20;
+num->num+30;
+5.with multiple parameter,no return value
+(int n1,int n2)->Sytem.out.println("sum:"+(n1+n2));
+6.with multiple parameter, with return value 
+(int n1,int n2)->n1+n2;
+(int n1,int n2)->{return n1+n2};
+
+Method Refrencing: 
+diffrence between method refrencing and 
+Swtich Expression:
+single variable having multiple choice is where swtich is used normal swtuch doesn't return value whereas swtich expression do return value
+yield work as return in swtich expression
+
+shield class and record class
+consumer interface hve a method name accept 
