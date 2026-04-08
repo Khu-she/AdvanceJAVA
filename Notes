@@ -57,4 +57,21 @@ single variable having multiple choice is where swtich is used normal swtuch doe
 yield work as return in swtich expression
 
 shield class and record class
-consumer interface hve a method name accept 
+consumer interface have a method name accept 
+
+Stream API - a sequence of elements that can be proceed in a pipeline of opreations such as filtering,mapping,sorting and reducing.
+one opreation output will be the input for other opreation
+streams dont store data anywhere it only perform opreations and then you need to store it into a list manually
+collection to stream - Collection.stream() 
+array to stream - Arrays.stream()
+direct stream - Stream.of()
+Stream.iterate(strating,condition) and Stream.genrate() // not in syllabus
+All stream API are divided into 2 parts:-
+Intermediate opreation- filter, map, distinct, sort,limit() etc.( only give the form not the result give result with terminal operation)
+Terminal Opreation - forEach,reduce,collect,count etc. (give result)
+
+Driver Types
+JDBC-ODBC Bridge
+Native-API/party java Driver
+Net-protocol/all-java Driver
+Native-protocol/all-java driver 
